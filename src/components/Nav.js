@@ -9,7 +9,7 @@ function Nav({state, setNone}) {
     return ( 
         <nav className={state ? "menu" : "menu is-active"} onClick={handleClick}>
             <a href="#inicio">Inicio</a>
-            <a href="#acerca">Acerca</a>
+            <a href="#acerca">Acerca de mi</a>
             <a href="#servicios">Servicios</a>
             <a href="#portafolio">Trabajos</a>
             <a href="#testimonios">Testimonios</a>

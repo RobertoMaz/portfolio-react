@@ -9,7 +9,8 @@ function Inicio() {
                     <div className="hero-image-content">
                         <h2 className="hero-image-title" >
                             Bienvenidos 
-                            <br />a mi sitio
+                            al sitio de
+                            <br />Roberto Mazzarello
                         </h2>
                         <a href="#contacto" className="btn">CONTÁCTAME</a>
                     </div>

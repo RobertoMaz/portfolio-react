@@ -2,8 +2,7 @@ import "../style.css";
 import ServiciosArt1 from "./ServiciosArt1";
 import ServiciosArt2 from "./ServiciosArt2";
 import ServiciosArt3 from "./ServiciosArt3";
-import ServiciosArt4 from "./ServiciosArt4";
-import ServiciosArt5 from "./ServiciosArt5";
+
 
 
 function Servicios() {
@@ -16,8 +15,6 @@ function Servicios() {
             <ServiciosArt1 />
             <ServiciosArt2 />
             <ServiciosArt3 />
-            <ServiciosArt4 />
-            <ServiciosArt5 />
         </div>
     </section>
     );

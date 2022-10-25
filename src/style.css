@@ -282,7 +282,7 @@ p {
 }
 
 .hero-image-title {
-    font-size: 7.5vw;
+    font-size: 5vw;
     color: var(--white-color);
 }
 
@@ -532,6 +532,10 @@ progress::-moz-progress-bar {
     .text-lg-right {
         text-align: right;
     } 
+
+    .slide{
+        width: 800px;
+    }
 }
 
 
@@ -540,6 +544,7 @@ progress::-moz-progress-bar {
 
 /*********** Site Styles ***********/
 .about > article {
+    margin-top: 25px;
     margin-bottom: 2rem;
 }
 
@@ -738,6 +743,7 @@ progress::-moz-progress-bar {
     }
 
     .about {
+        
         display: grid;
         grid-template-columns: repeat(3, 30%);
         justify-content: space-between;

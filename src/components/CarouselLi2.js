@@ -6,9 +6,13 @@ function CarouselLi2() {
     return (
         <li className="slide">
             <img className="avatar" src={customer2} alt="customer-2" />
-            <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur culpa itaque rem non ipsam sapiente quidem in? Aliquam, totam veniam maxime quo quaerat consectetur officiis libero quia nam aliquid.</blockquote>
-            <h3 className="text-first-color">nombre del cliente</h3>
-            <h6>puesto del cliente</h6>
+            <blockquote className="text-lg-center">
+                'Roberto ayudo constantemente en los procesos de documentacion general y registros. 
+                <br/>Actualmente estamos trabajando juntos en el desarrollo de un panel de asistencias y control de personal para implementar en nuestro ERP actual. 
+            </blockquote>
+            <h3 className="text-first-color">Francesca</h3>
+            <h6>Licenciada en Administración</h6>
+            <h6>Rol actual: Encargada de recursos humanos</h6>
         </li>
     );
 }

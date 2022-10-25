@@ -6,7 +6,9 @@ function CarouselLi4() {
     return (
         <li className="slide">
             <img className="avatar" src={customer4} alt="customer-4" />
-            <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur culpa itaque rem non ipsam sapiente quidem in? Aliquam, totam veniam maxime quo quaerat consectetur officiis libero quia nam aliquid.</blockquote>
+            <blockquote className="text-lg-center">
+                "Roberto es un compañero muy comprometido y fue de mucha ayuda colaborando en el desarrollo intelectual de un nuevo módulo de digitalización de documentación"
+            </blockquote>
             <h3 className="text-first-color">nombre del cliente</h3>
             <h6>puesto del cliente</h6>
         </li>
