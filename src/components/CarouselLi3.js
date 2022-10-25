@@ -7,10 +7,11 @@ function CarouselLi3() {
         <li className="slide">
             <img className="avatar" src={customer3} alt="customer-3" />
             <blockquote className="text-lg-center">
-            "Roberto es un compañero muy comprometido y fue de mucha ayuda colaborando en el desarrollo intelectual de un nuevo módulo de digitalización de documentación"
+            "Roberto es un excelente profesional, siempre está dispuesto a ayudar y busca superarse constantemente. Sus relaciones interpersonales son muy buenas, tiene un perfil muy sociable."
             </blockquote>
-            <h3 className="text-first-color">nombre del cliente</h3>
-            <h6>puesto del cliente</h6>
+            <h3 className="text-first-color">Mariano</h3>
+            <h6>Desarrolador Web Senior </h6>
+            <h6>Rol actual: Senior Front-End en un start-up</h6>
         </li>
     );
 }

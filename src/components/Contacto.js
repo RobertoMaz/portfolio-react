@@ -10,7 +10,7 @@ function Contacto() {
     return (
         <section id="contacto" className="contact section">
             <div className="container full-lg-screen">
-                <h2 className="section-title">Interesado?</h2>
+                <h2 className="section-title">¿Como contactarme?</h2>
                 <ContactoCards />
                 <Formulario />
                 <ModalGracias />
