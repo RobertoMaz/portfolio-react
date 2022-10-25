@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.f262c979.css",
-    "main.js": "/portfolio-react/static/js/main.072806f5.js",
+    "main.css": "/portfolio-react/static/css/main.49e22826.css",
+    "main.js": "/portfolio-react/static/js/main.bac331af.js",
     "static/media/rob.jpeg": "/portfolio-react/static/media/rob.a9dcf25865a243e6e0e1.jpeg",
     "static/media/hero-image-customers.jpg": "/portfolio-react/static/media/hero-image-customers.08b884a51a0e577f3450.jpg",
     "static/media/buscador-de-libros.jpg": "/portfolio-react/static/media/buscador-de-libros.6ee220c0e44dbfd2e410.jpg",
@@ -15,11 +15,11 @@
     "static/media/selector-emojis.jpg": "/portfolio-react/static/media/selector-emojis.9f0fdcc47100b1612be2.jpg",
     "static/media/loader.svg": "/portfolio-react/static/media/loader.48ae15df548e8f1c57b5794a18544052.svg",
     "index.html": "/portfolio-react/index.html",
-    "main.f262c979.css.map": "/portfolio-react/static/css/main.f262c979.css.map",
-    "main.072806f5.js.map": "/portfolio-react/static/js/main.072806f5.js.map"
+    "main.49e22826.css.map": "/portfolio-react/static/css/main.49e22826.css.map",
+    "main.bac331af.js.map": "/portfolio-react/static/js/main.bac331af.js.map"
   },
   "entrypoints": [
-    "static/css/main.f262c979.css",
-    "static/js/main.072806f5.js"
+    "static/css/main.49e22826.css",
+    "static/js/main.bac331af.js"
   ]
 }
