@@ -1,6 +1,7 @@
 import "../style.css";
+import ButtonLenguage from "./ButtonLenguage";
 
-function Nav({state, setNone}) {
+function Nav({state, setNone, lenguage, setLenguage}) {
 
     function handleClick(e){
         if(e.target.matches("a")) e.currentTarget.classList.remove("is-active");
@@ -8,12 +9,16 @@ function Nav({state, setNone}) {
     }
     return ( 
         <nav className={state ? "menu" : "menu is-active"} onClick={handleClick}>
-            <a href="#inicio">Inicio</a>
-            <a href="#acerca">Acerca de mi</a>
-            <a href="#servicios">Servicios</a>
-            <a href="#portafolio">Trabajos</a>
-            <a href="#testimonios">Testimonios</a>
-            <a href="#contacto">Contacto</a>
+            <a href="#inicio">Home</a>
+            <a href="#acerca">About me</a>
+            <a href="#servicios">Services</a>
+            <a href="#portafolio">My work</a>
+            <a href="#testimonios">Testimonials</a>
+            <a href="#contacto">Contact</a>
+            <ButtonLenguage 
+                lenguage={lenguage}
+                setLenguage={setLenguage}
+            />
         </nav>
 );
 }

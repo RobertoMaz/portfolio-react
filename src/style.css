@@ -470,6 +470,24 @@ progress::-moz-progress-bar {
     background-color: var(--first-color);
 }
 
+.btn-lenguage {
+    border-radius: 0.5rem;
+    padding: 0.2rem 0.3rem;
+    width: 80px;
+    font-weight: bold;
+    color: var(--white-color);
+    display: flex;
+    background-color: var(--first-color);
+    justify-content: center;
+    margin: auto;
+    align-items: center; 
+}
+
+.btn-lenguage:hover{
+    cursor: pointer;
+    opacity: 75%;
+}
+
 .container {
     margin-left: auto;
     margin-right: auto;

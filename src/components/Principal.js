@@ -5,18 +5,16 @@ import Servicios from "./Servicios";
 import Portafolio from "./Portafolio";
 import Carousel from "./Carousel";
 import Contacto from "./Contacto";
-import Home from "./Home";
-import About from "./About";
 
 
-function Main() {
+function Principal() {
 
  
 
     return (
         <>
-            <Home />
-            <About />
+            <Inicio />
+            <Acerca />
             <Servicios />
             <Portafolio />
             <Carousel />
@@ -25,4 +23,4 @@ function Main() {
     );
 }
 
-export default Main;
+export default Principal;

@@ -3,8 +3,9 @@ import Logo from "./Logo";
 import Nav from "./Nav";
 import "../style.css";
 import { useState } from "react";
+import BarraDeNav from "./BarraDeNav";
 
-function Header({lenguage, setLenguage}) {
+function Encabezado({lenguage, setLenguage}) {
 
     const [none, setNone] = useState(true);
 
@@ -16,14 +17,14 @@ function Header({lenguage, setLenguage}) {
         <section className="container">
             <Logo />
             <ButtonNav onClick={handleClick} state={none}/>
-            <Nav 
+            <BarraDeNav 
                 state={none} 
                 setNone={setNone}
                 lenguage={lenguage}
                 setLenguage={setLenguage}
-                />
+            />
         </section>
     );
 }
 
-export default Header;
+export default Encabezado;

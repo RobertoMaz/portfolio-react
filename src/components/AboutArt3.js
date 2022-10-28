@@ -1,12 +1,12 @@
 import "../style.css";
 
 
-function AcercaArt3() {
+function AboutArt3() {
 
 
     return (
         <article>
-                <h2 className="text-center text-lg-left">Mis habilidades</h2>
+                <h2 className="text-center text-lg-left">My skills</h2>
                 <div className="progress">
                     <p>
                         <b>HTML / CSS</b>
@@ -54,7 +54,7 @@ function AcercaArt3() {
                 </div>
                 <div className="progress">
                     <p>
-                        <b>Ingles</b>
+                        <b>English</b>
     
                     </p>
                     <progress value="40" min="0" max="100"></progress>
@@ -64,4 +64,4 @@ function AcercaArt3() {
     );
 }
 
-export default AcercaArt3;
+export default AboutArt3;
