@@ -291,6 +291,9 @@ p {
 }
 
 
+
+
+
 /*********** Menu ***********/
 .menu-btn {
     outline: thin solid var(--first-color);
@@ -712,6 +715,7 @@ progress::-moz-progress-bar {
 
 
 
+
 @media screen and (min-width: 768px){
     .contact-cards {
         display: grid;
@@ -749,6 +753,9 @@ progress::-moz-progress-bar {
    .services .section-title {
     grid-column: span 2;
    }
+
+   
+
 }
 
 @media screen and (min-width: 1024px){
@@ -816,4 +823,5 @@ progress::-moz-progress-bar {
    .test-top {
     padding-top: 2rem;
    }
+   
 }
