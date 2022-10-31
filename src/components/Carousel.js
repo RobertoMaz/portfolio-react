@@ -3,7 +3,7 @@ import CarouselDot from "./CarouselDot";
 import CarouselInputs from "./CarouselInputs";
 import CarouselUl from "./CarouselUl";
 
-function Carousel() {
+function Carousel({lenguage}) {
 
 
     return (
@@ -12,11 +12,13 @@ function Carousel() {
                 <article className="hero-image-carousel">
                     <aside className="hero-image-opacity-carousel">
                         <div className="hero-image-content full-lg-screen test-top">
-                            <h2 className="section-title">Testimonios de mis compañeros...</h2>
+                            <h2 className="section-title">
+                                {lenguage ? "Testimonials from my partners" : "Testimonios de mis compañeros..."}
+                            </h2>
                             <div className="container">
                                 <article className="carousel">
                                     <CarouselInputs />
-                                    <CarouselUl />
+                                    <CarouselUl lenguage={lenguage}/>
                                     <CarouselDot />
                                 </article>
                             </div>

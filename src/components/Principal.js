@@ -7,18 +7,18 @@ import Carousel from "./Carousel";
 import Contacto from "./Contacto";
 
 
-function Principal() {
+function Principal({lenguage}) {
 
  
 
-    return (
+    return ( 
         <>
             <Inicio />
             <Acerca />
             <Servicios />
             <Portafolio />
-            <Carousel />
-            <Contacto />
+            <Carousel  lenguage={lenguage}/>
+            <Contacto lenguage={lenguage}/>
         </>
     );
 }

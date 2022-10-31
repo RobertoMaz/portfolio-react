@@ -1,15 +1,14 @@
-import Acerca from "./Acerca";
 import "../style.css";
-import Inicio from "./Inicio";
-import Servicios from "./Servicios";
-import Portafolio from "./Portafolio";
 import Carousel from "./Carousel";
 import Contacto from "./Contacto";
 import Home from "./Home";
 import About from "./About";
+import Services from "./Services";
+import MyWork from "./MyWork";
 
 
-function Main() {
+
+function Main({lenguage}) {
 
  
 
@@ -17,10 +16,10 @@ function Main() {
         <>
             <Home />
             <About />
-            <Servicios />
-            <Portafolio />
-            <Carousel />
-            <Contacto />
+            <Services />
+            <MyWork />
+            <Carousel lenguage={lenguage}  />
+            <Contacto lenguage={lenguage}/>
         </>
     );
 }

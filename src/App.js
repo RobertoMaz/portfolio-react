@@ -34,8 +34,8 @@ function App() {
       </header>
       {
         lenguage 
-          ? <Main />
-          : <Principal />
+          ? <Main lenguage={lenguage}/>
+          : <Principal lenguage={lenguage}/>
       }
       <Footer />
     </div>

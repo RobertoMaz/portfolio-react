@@ -5,15 +5,15 @@ import ContactoTelefono from "./ContactoTelefono";
 import ContactoUbicacion from "./ContactoUbicacion";
 
 
-function ContactoCards() {
+function ContactoCards({lenguage}) {
 
 
     return (
         <article className="contact-cards">
-            <ContactoUbicacion />
-            <ContactoTelefono />
+            <ContactoUbicacion lenguage={lenguage}/>
+            <ContactoTelefono lenguage={lenguage}/>
             <ContactoEmail />
-            <ContactoSocialMedia />
+            <ContactoSocialMedia lenguage={lenguage}/>
             
             
             

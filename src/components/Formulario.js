@@ -1,8 +1,14 @@
 import "../style.css";
 import { useState } from "react";
 import Loader from "./Loader";
+import FormularioName from "./FormularioName";
+import FormularioNombre from "./FormularioNombre";
+import FormularioEmail from "./FormularioEmail";
+import FormularioCorreo from "./FormularioCorreo";
+import FormularioComments from "./FormularioComments";
+import FormularioComentarios from "./FormularioComentarios";
 
-function Formulario() {
+function Formulario({lenguage}) {
 
     const [loader, setLoader] = useState("none");
 
@@ -16,7 +22,7 @@ function Formulario() {
         })
         .then((res) =>(res.ok ? res.json() : Promise.reject(res)) )
         .then(json => {
-            window.location.hash = "#gracias";
+                window.location.hash = "#gracias";             
             e.target.reset();
         })
         .catch((err) => {
@@ -39,27 +45,24 @@ function Formulario() {
             method="POST" 
             className="contact-form box-shadow-1">
 
-            <input 
-                type="text" 
-                name="name" 
-                placeholder="Ingresa tu nombre *" 
-                title="Nombre sólo acepta letras y espacios en blanco" 
-                pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" 
-                required />
-            <input 
-                type="email" 
-                name="email" 
-                placeholder="Ingresa tu correo *" 
-                title="Ingrese un correo valido" 
-                pattern="^[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" 
-                required />
-            <textarea 
-                name="comments" 
-                cols="50" 
-                rows="10" 
-                placeholder="Dejame tus comentarios *" 
-                required />
-            <input type="submit" className="btn" value="ENVIAR MENSAJE" />
+            {lenguage 
+                ?
+                    <>
+                        <FormularioName />
+                        <FormularioEmail />
+                        <FormularioComments />
+                    </>
+                : 
+                    <>
+                        <FormularioNombre />
+                        <FormularioCorreo />
+                        <FormularioComentarios />
+                    </>
+            
+            }
+            
+            
+            <input type="submit" className="btn" value={lenguage ? "SEND MESSAGE" : "ENVIAR MENSAJE"} />
             <Loader loader={loader}/>
         </form>
     );
