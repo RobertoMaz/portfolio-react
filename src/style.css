@@ -1,8 +1,8 @@
 /*********** Custom Properties ***********/
 :root {
-   --first-color: #d90062;
+   --first-color: #e7c138;
    --first-alpha-color: rgba(217, 0, 98, 0.75);
-   --second-color: #14192d;
+   --second-color: #231f20;
    --second-alpha-color: rgba(20, 25, 45, 0.75);
    --third-color: #501464;
    --third-apha-color: rgba(80, 20, 100, 0.75);
@@ -19,7 +19,52 @@
    --font: "Raleway", sans-serif;
    --max-width: 1200px;
    --header-height: 4rem;
+   
 }
+
+/*
+AMARILLO: 
+    #e7c138
+    #ffe75c
+    #ffff00
+    #ffff56
+
+
+BLANCO:
+    #E2E2E2
+
+GRIS: 
+    #858585
+
+NEGRO: 
+    #565557
+    #090909
+
+
+*/
+
+
+/* :root {
+    --first-color: #d90062;
+    --first-alpha-color: rgba(217, 0, 98, 0.75);
+    --second-color: #14192d;
+    --second-alpha-color: rgba(20, 25, 45, 0.75);
+    --third-color: #501464;
+    --third-apha-color: rgba(80, 20, 100, 0.75);
+    --white-color: #fff;
+    --gray-light-color: #f3f3f3;
+    --gray-color: #ccc;
+    --gray-dark-color: #666;
+    --black-color: #000;
+    --link-color: #509ee3;
+    --title-color: #333;
+    --text-color: #222;
+    --white-alpha-color: rgba(255, 255, 255, 0.5);
+    --black-alpha-color: rgba(0, 0, 0, 0.5);
+    --font: "Raleway", sans-serif;
+    --max-width: 1200px;
+    --header-height: 4rem;
+ } */
 /*********** Reset ***********/
 html {
     box-sizing: border-box;
@@ -42,7 +87,8 @@ body {
 
 a {
   color: var(--link-color);
-  transition: all 0.5s ease-out;  
+  transition: all 0.5s ease-out; 
+  text-decoration:none; 
 }
 
 
@@ -246,7 +292,8 @@ p {
 
 /*********** Hero Image ***********/
 .hero-image {
-    background-image: url("./assets/hero-image-home.jpg");
+    background-image: url("./assets/wall3.avif");
+    /* background-image: url("./assets/hero-image-home.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -254,7 +301,8 @@ p {
 }
 
 .hero-image-carousel {
-    background-image: url("./assets/hero-image-customers.jpg");
+    background-image: url("./assets/wall6.jpg");
+    /* background-image: url("./assets/hero-image-customers.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -283,6 +331,7 @@ p {
 
 .hero-image-title {
     font-size: 5vw;
+    
     color: var(--white-color);
 }
 
@@ -346,7 +395,8 @@ p {
         justify-content: center;
         align-items: center;
         text-align: center;
-        background-color: var(--hero-opacity-color);
+        /* background-color: var(--hero-opacity-color); */
+        background-color: rgba(0, 0, 0, 0.2);
     }
 
     .menu-btn {
@@ -469,7 +519,7 @@ progress::-moz-progress-bar {
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    color: var(--white-color);
+    color: #231f20;
     background-color: var(--first-color);
 }
 
@@ -478,7 +528,7 @@ progress::-moz-progress-bar {
     padding: 0.2rem 0.3rem;
     width: 80px;
     font-weight: bold;
-    color: var(--white-color);
+    color: #231f20;
     display: flex;
     background-color: var(--first-color);
     justify-content: center;
@@ -521,7 +571,7 @@ progress::-moz-progress-bar {
 }
 
 .text-first-color {
-    color: var(--first-color);
+    color: #231f20;
 }
 
 .text-center {
@@ -581,11 +631,12 @@ progress::-moz-progress-bar {
 }
 
 .contact-card > svg {
-    fill: var(--first-color);
+    fill: var(--gray-dark-colorcolor);
     width: 2rem;
     height: 2rem;
 
 }
+
 
 
 .contact-card > small {
@@ -778,7 +829,7 @@ progress::-moz-progress-bar {
 
     .contact-cards {
         display: grid;
-        grid-template-columns: repeat(4, 24%);
+        grid-template-columns: repeat(3, 30%);
         justify-content: space-between;
         
     }
