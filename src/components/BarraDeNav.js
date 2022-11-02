@@ -1,7 +1,7 @@
 import "../style.css";
 import ButtonLenguage from "./ButtonLenguage";
 
-function BarraDeNav({state, setNone, lenguage, setLenguage}) {
+function BarraDeNav({state, setNone}) {
 
     function handleClick(e){
         if(e.target.matches("a")) e.currentTarget.classList.remove("is-active");
@@ -15,10 +15,7 @@ function BarraDeNav({state, setNone, lenguage, setLenguage}) {
             <a href="#portafolio">Trabajos</a>
             <a href="#testimonios">Testimonios</a>
             <a href="#contacto">Contacto</a>
-            <ButtonLenguage 
-                lenguage={lenguage}
-                setLenguage={setLenguage}   
-            />
+            <ButtonLenguage />
         </nav>
 );
 }

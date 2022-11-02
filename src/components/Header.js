@@ -4,9 +4,9 @@ import Nav from "./Nav";
 import "../style.css";
 import { useState } from "react";
 
-function Header({lenguage, setLenguage}) {
+function Header() {
 
-    const [none, setNone] = useState(true);
+    const [none, setNone] = useState(false);
 
     function handleClick(){
         setNone(!none);
@@ -15,13 +15,11 @@ function Header({lenguage, setLenguage}) {
     return (
         <section className="container">
             <Logo />
-            <ButtonNav onClick={handleClick} state={none}/>
+            <ButtonNav none={none} onClick={handleClick}/>
             <Nav 
                 state={none} 
                 setNone={setNone}
-                lenguage={lenguage}
-                setLenguage={setLenguage}
-                />
+            />
         </section>
     );
 }

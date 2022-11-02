@@ -1,10 +1,13 @@
+import { useContext } from "react";
 import "../style.css";
 import CarouselDot from "./CarouselDot";
 import CarouselInputs from "./CarouselInputs";
 import CarouselUl from "./CarouselUl";
+import LenguageContext from "./LenguageContext";
 
-function Carousel({lenguage}) {
+function Carousel() {
 
+    const lenguage = useContext(LenguageContext);
 
     return (
         <>
@@ -13,12 +16,12 @@ function Carousel({lenguage}) {
                     <aside className="hero-image-opacity-carousel">
                         <div className="hero-image-content full-lg-screen test-top">
                             <h2 className="section-title">
-                                {lenguage ? "Testimonials from my partners" : "Testimonios de mis compañeros..."}
+                                {lenguage.lenguage ? "Testimonials from my partners" : "Testimonios de mis compañeros..."}
                             </h2>
                             <div className="container">
                                 <article className="carousel">
                                     <CarouselInputs />
-                                    <CarouselUl lenguage={lenguage}/>
+                                    <CarouselUl lenguage={lenguage.lenguage}/>
                                     <CarouselDot />
                                 </article>
                             </div>

@@ -1,7 +1,12 @@
-function ButtonLenguage({setLenguage, lenguage, onClick }) {
+import { useContext } from "react";
+import LenguageContext from "./LenguageContext";
+
+function ButtonLenguage() {
+
+    const lenguage = useContext(LenguageContext);
 
     function onClick(){
-        setLenguage(!lenguage);
+        lenguage.setLenguage(!lenguage.lenguage);
     }
 
     return (

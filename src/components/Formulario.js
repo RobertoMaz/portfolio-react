@@ -1,5 +1,5 @@
 import "../style.css";
-import { useState } from "react";
+import { useContext, useState } from "react";
 import Loader from "./Loader";
 import FormularioName from "./FormularioName";
 import FormularioNombre from "./FormularioNombre";
@@ -7,10 +7,13 @@ import FormularioEmail from "./FormularioEmail";
 import FormularioCorreo from "./FormularioCorreo";
 import FormularioComments from "./FormularioComments";
 import FormularioComentarios from "./FormularioComentarios";
+import LenguageContext from "./LenguageContext";
 
-function Formulario({lenguage}) {
+function Formulario() {
 
     const [loader, setLoader] = useState("none");
+
+    const lenguage = useContext(LenguageContext);
 
     function handleSubmit(e){
         e.preventDefault();
@@ -45,7 +48,7 @@ function Formulario({lenguage}) {
             method="POST" 
             className="contact-form box-shadow-1">
 
-            {lenguage 
+            {lenguage.lenguage 
                 ?
                     <>
                         <FormularioName />
@@ -62,7 +65,7 @@ function Formulario({lenguage}) {
             }
             
             
-            <input type="submit" className="btn" value={lenguage ? "SEND MESSAGE" : "ENVIAR MENSAJE"} />
+            <input type="submit" className="btn" value={lenguage.lenguage ? "SEND MESSAGE" : "ENVIAR MENSAJE"} />
             <Loader loader={loader}/>
         </form>
     );

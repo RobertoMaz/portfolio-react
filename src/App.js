@@ -2,6 +2,7 @@ import { useState } from "react";
 import Encabezado from "./components/Encabezado";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import LenguageContext from "./components/LenguageContext";
 import Main from "./components/Main";
 import Principal from "./components/Principal";
 import "./style.css"
@@ -16,29 +17,29 @@ function App() {
 
 
   return (
-    <div className="App">
-      <header className="header">
+
+    <LenguageContext.Provider value={{lenguage, setLenguage}}>
+
+      <div className="App">
+        <header className="header">
+          {
+            lenguage 
+            ? <Header 
+                className="header" 
+              />
+            : <Encabezado 
+                className="header"
+              />
+          } 
+        </header>
         {
           lenguage 
-          ? <Header 
-              className="header" 
-              lenguage={lenguage}
-              setLenguage={setLenguage}
-            />
-          : <Encabezado 
-              className="header"
-              lenguage={lenguage}
-              setLenguage={setLenguage}
-            />
-        } 
-      </header>
-      {
-        lenguage 
-          ? <Main lenguage={lenguage}/>
-          : <Principal lenguage={lenguage}/>
-      }
-      <Footer />
-    </div>
+            ? <Main />
+            : <Principal />
+        }
+        <Footer />
+      </div>
+    </LenguageContext.Provider>
   );
 }
 

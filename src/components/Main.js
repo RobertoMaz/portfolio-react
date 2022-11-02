@@ -8,18 +8,23 @@ import MyWork from "./MyWork";
 
 
 
-function Main({lenguage}) {
+
+function Main() {
 
  
 
     return (
         <>
-            <Home />
-            <About />
-            <Services />
-            <MyWork />
-            <Carousel lenguage={lenguage}  />
-            <Contacto lenguage={lenguage}/>
+           
+                <Home />
+                <About />
+                <Services />
+                <MyWork />
+                
+                <Carousel />
+                <Contacto />
+
+
         </>
     );
 }

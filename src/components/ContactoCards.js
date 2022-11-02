@@ -1,22 +1,17 @@
 import "../style.css";
 import ContactoEmail from "./ContactoEmail";
 import ContactoSocialMedia from "./ContactoSocialMedia";
-// import ContactoTelefono from "./ContactoTelefono";
 import ContactoUbicacion from "./ContactoUbicacion";
 
 
-function ContactoCards({lenguage}) {
-
+function ContactoCards() {
+ 
 
     return (
         <article className="contact-cards">
-            <ContactoUbicacion lenguage={lenguage}/>
-            {/* <ContactoTelefono lenguage={lenguage}/> */}
+            <ContactoUbicacion />
             <ContactoEmail />
-            <ContactoSocialMedia lenguage={lenguage}/>
-            
-            
-            
+            <ContactoSocialMedia />         
         </article>
     );
 }
