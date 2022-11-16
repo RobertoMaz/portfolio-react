@@ -16,7 +16,7 @@ function Carousel() {
                     <aside className="hero-image-opacity-carousel">
                         <div className="hero-image-content full-lg-screen test-top">
                             <h2 className="section-title">
-                                {lenguage.lenguage ? "Testimonials from my partners" : "Testimonios de mis compañeros..."}
+                                {lenguage.lenguage ? "Testimonies from my partners" : "Testimonios de mis compañeros..."}
                             </h2>
                             <div className="container">
                                 <article className="carousel">

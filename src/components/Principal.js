@@ -5,6 +5,7 @@ import Servicios from "./Servicios";
 import Portafolio from "./Portafolio";
 import Carousel from "./Carousel";
 import Contacto from "./Contacto";
+import CarouselReact from "./CarouselReact";
 
 
 function Principal() {
@@ -17,7 +18,8 @@ function Principal() {
             <Acerca />
             <Servicios />
             <Portafolio />
-            <Carousel />
+            {/* <Carousel /> */}
+            {/* <CarouselReact /> */}
             <Contacto />
         </>
     );

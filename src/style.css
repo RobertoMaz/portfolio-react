@@ -141,10 +141,20 @@ p {
 
 /*********** Carousel ***********/
 
+/* .carouselMain{
+    max-width: 1000px;
+    margin: 50px auto;
+    overflow: hidden;
+} */
+
+
+
+
 .carousel {
+    box-sizing: border-box;
     margin: 2rem auto;
     padding: 2rem 0;
-    max-width: 800px;
+    max-width: 340px;
     text-align: center;
     overflow-x: hidden;
     background-color: var(--white-alpha-color);
@@ -153,7 +163,7 @@ p {
 .carousel .slides {
     padding-left: 0;
     /*por cada slide hay que sumar 100% al ancho*/
-    width: 400%;
+    width: 440%;
     display: flex;
     list-style: none;
     transition: transform 0.5s ease-in-out;

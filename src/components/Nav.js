@@ -13,7 +13,7 @@ function Nav({state, setNone}) {
             <a href="#acerca">About me</a>
             <a href="#servicios">Services</a>
             <a href="#portafolio">My work</a>
-            <a href="#testimonios">Testimonials</a>
+            {/* <a href="#testimonios">Testimonials</a> */}
             <a href="#contacto">Contact</a>
             <ButtonLenguage />
         </nav>

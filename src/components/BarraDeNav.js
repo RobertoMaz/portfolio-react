@@ -13,7 +13,7 @@ function BarraDeNav({state, setNone}) {
             <a href="#acerca">Acerca de mi</a>
             <a href="#servicios">Servicios</a>
             <a href="#portafolio">Trabajos</a>
-            <a href="#testimonios">Testimonios</a>
+            {/* <a href="#testimonios">Testimonios</a> */}
             <a href="#contacto">Contacto</a>
             <ButtonLenguage />
         </nav>

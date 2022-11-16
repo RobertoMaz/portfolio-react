@@ -7,7 +7,7 @@ function CarouselLi4EN() {
         <li className="slide">
             <img className="avatar" src={customer4} alt="customer-4" />
             <blockquote className="text-lg-center">
-               texto ingles 4
+               "Robert is a really committed with his work and he helped a lot in the intellectual development of a new digitalization proccess"
             </blockquote>
             <h3 className="text-first-color">Nahir</h3>
             <h6>Licenciada en planificación logística</h6>

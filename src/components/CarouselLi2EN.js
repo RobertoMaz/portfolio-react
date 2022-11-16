@@ -7,10 +7,10 @@ function CarouselLi2EN() {
         <li className="slide">
             <img className="avatar" src={customer2} alt="customer-2" />
             <blockquote className="text-lg-center">
-                texto ingles 2
+                "Robert helped in some of the news documentations procceses. Now we are working together in the development of an assintance portal and personal check-in to add in our ERP"
             </blockquote>
             <h3 className="text-first-color">Francesca</h3>
-            <h6>Licenciada en Administración</h6>
+            <h6>bachelor in administration</h6>
             <h6>Rol actual: Encargada de recursos humanos</h6>
         </li>
     );

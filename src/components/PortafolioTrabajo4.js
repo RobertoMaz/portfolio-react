@@ -10,7 +10,7 @@ function PortafolioTrabajo4() {
             <aside className="portfolio-card-info">
                 <div>
                     <h3>Selector de Emojis</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas iure expedita omnis officia accusantium voluptate excepturi modi optio eligendi dolor, nesciunt aperiam explicabo enim delectus esse repudiandae adipisci eaque obcaecati?</p>
+                    <p>Un selector de emojis para agregar a una web.</p>
                 </div>
             </aside>
         </a>

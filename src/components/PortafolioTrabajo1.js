@@ -10,7 +10,7 @@ function PortafolioTrabajo1() {
             <aside className="portfolio-card-info">
                 <div>
                     <h3>Buscador de libros</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas iure expedita omnis officia accusantium voluptate excepturi modi optio eligendi dolor, nesciunt aperiam explicabo enim delectus esse repudiandae adipisci eaque obcaecati?</p>
+                    <p>Tenemos un buscador de libros en el cual podemos añadir nuevos elementos o eliminarlos, tambien podemos puntuarlos.</p>
                 </div>
             </aside>
         </a>

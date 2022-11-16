@@ -10,7 +10,7 @@ function PortafolioTrabajo3() {
             <aside className="portfolio-card-info">
                 <div>
                     <h3>Todo List</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas iure expedita omnis officia accusantium voluptate excepturi modi optio eligendi dolor, nesciunt aperiam explicabo enim delectus esse repudiandae adipisci eaque obcaecati?</p>
+                    <p>Un Todo List, para agregar las tareas diarias que tengas.</p>
                 </div>
             </aside>
         </a>

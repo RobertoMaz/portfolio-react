@@ -14,11 +14,11 @@ function Portafolio() {
             <div className="container">
                 <h2 className="section-title">Mis trabajos</h2>
                 <PortafolioTrabajo1 />
-                <PortafolioTrabajo2 />
+                {/* <PortafolioTrabajo2 /> */}
                 <PortafolioTrabajo3 />
                 <PortafolioTrabajo4 />
-                <PortafolioTrabajo5 />
-                <PortafolioTrabajo6 />
+                {/* <PortafolioTrabajo5 />
+                <PortafolioTrabajo6 /> */}
             </div>
         </section>
     );
