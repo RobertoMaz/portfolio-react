@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.c9bbf90b.css",
-    "main.js": "/portfolio-react/static/js/main.c9b0e9b8.js",
+    "main.css": "/portfolio-react/static/css/main.543be743.css",
+    "main.js": "/portfolio-react/static/js/main.babe5933.js",
     "static/media/rob.jpeg": "/portfolio-react/static/media/rob.a9dcf25865a243e6e0e1.jpeg",
     "static/media/wall6.jpg": "/portfolio-react/static/media/wall6.208c01dc816a6de677ff.jpg",
     "static/media/buscador-de-libros.jpg": "/portfolio-react/static/media/buscador-de-libros.6ee220c0e44dbfd2e410.jpg",
@@ -15,11 +15,13 @@
     "static/media/selector-emojis.jpg": "/portfolio-react/static/media/selector-emojis.9f0fdcc47100b1612be2.jpg",
     "static/media/loader.svg": "/portfolio-react/static/media/loader.48ae15df548e8f1c57b5794a18544052.svg",
     "index.html": "/portfolio-react/index.html",
-    "main.c9bbf90b.css.map": "/portfolio-react/static/css/main.c9bbf90b.css.map",
-    "main.c9b0e9b8.js.map": "/portfolio-react/static/js/main.c9b0e9b8.js.map"
+    "static/media/arrow-left.svg": "/portfolio-react/static/media/arrow-left.b74b51c4c35fb292f28d63a42b7d73c9.svg",
+    "static/media/arrow-right.svg": "/portfolio-react/static/media/arrow-right.b282d2fca8839e80178c1a178ce23993.svg",
+    "main.543be743.css.map": "/portfolio-react/static/css/main.543be743.css.map",
+    "main.babe5933.js.map": "/portfolio-react/static/js/main.babe5933.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9bbf90b.css",
-    "static/js/main.c9b0e9b8.js"
+    "static/css/main.543be743.css",
+    "static/js/main.babe5933.js"
   ]
 }
